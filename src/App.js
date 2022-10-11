@@ -6,15 +6,14 @@ export default function App() {
       <div className="mainBlock">
         <div className="row">
           <div className="col-md-6">
-            <h1 className="city-name" id="current-city"></h1>
+            <h1 className="city-name"></h1>
           </div>
-          <form className="col-md-6 row" id="search-city">
+          <form className="col-md-6 row">
             <div className="col-md-8">
               <input
                 type="text"
                 placeholder="Enter a city"
                 className="form-control shadow-sm border-0"
-                id="searchInput"
                 autocomplete="off"
               />
             </div>
@@ -23,37 +22,36 @@ export default function App() {
                 className="form-control btn btn-primary shadow-sm"
                 type="submit"
                 value="Search"
-                id="submitButton"
               />
             </div>
           </form>
         </div>
         <div className="location">
-          <a href="#" id="my-loc">My location📍</a>
+          <a href="#">My location📍</a>
         </div>
         <div className="row">
           <div className="col-md-2">
-            <img id="icon" src=" " alt="sun" />
+            <img src=" " alt="sun" />
             <ul className="description" id="temperature-description">
-              <li id="description"></li>
-              <li id="humidity"></li>
-              <li id="windSpeed"></li>
+              <li></li>
+              <li></li>
+              <li></li>
             </ul>
           </div>
           <div className="col-md-3">
             <ul className="description">
-              <li className="currentDay" id="current-day"></li>
-              <li className="currentTime" id="current-time"></li>
-              <span className="temp" id="temperature"></span>
+              <li className="currentDay"></li>
+              <li className="currentTime"></li>
+              <span className="temp"></span>
               <span className="unit">
-                <a href="#" id="celsium-link" className="active">˚C</a> |
-                <a href="#" id="fahrenheit-link">˚F</a>
+                <a href="#" className="active">˚C</a> |
+                <a href="#">˚F</a>
               </span>
             </ul>
           </div>
           <div className="col-md-7">
             <div className="position d-flex justify-content-center"></div>
-            <div className="weather-forecast" id="forecast"></div>
+            <div className="weather-forecast"></div>
           </div>
           <hr />
           <div className="version-city">
@@ -61,8 +59,7 @@ export default function App() {
               <div className="d-flex justify-content-center">
                 <div className="col-md-2 d-flex flex-column align-items-center">
                   <a
-                    href="#"
-                    id="city-london"
+                    href="/"
                     className="js-city secondary-weather-name"
                     data-city-name="London"
                     >London</a
@@ -77,8 +74,7 @@ export default function App() {
                 </div>
                 <div className="col-md-2 d-flex flex-column align-items-center">
                   <a
-                    href="#"
-                    id="city-tokyo"
+                    href="/"
                     className="js-city secondary-weather-name"
                     data-city-name="Tokyo"
                     >Tokyo</a
@@ -93,8 +89,7 @@ export default function App() {
                 </div>
                 <div className="col-md-2 d-flex flex-column align-items-center">
                   <a
-                    href="#"
-                    id="city-sydney"
+                    href="/"
                     className="js-city secondary-weather-name"
                     data-city-name="Sydney"
                     >Sydney</a
@@ -109,8 +104,7 @@ export default function App() {
                 </div>
                 <div className="col-md-2 d-flex flex-column align-items-center">
                   <a
-                    href="#"
-                    id="city-lviv"
+                    href="/"
                     className="js-city secondary-weather-name"
                     data-city-name="Lviv"
                     >Lviv</a
@@ -125,8 +119,7 @@ export default function App() {
                 </div>
                 <div className="col-md-2 d-flex flex-column align-items-center">
                   <a
-                    href="#"
-                    id="city-paris"
+                    href="/"
                     className="js-city secondary-weather-name"
                     data-city-name="Paris"
                     >Paris</a
